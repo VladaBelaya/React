@@ -23,7 +23,7 @@ var getDivisionNumbers = function (value1, value2, system) {
         return null;
     }
     var result = value1 / value2;
-    console.log("\u0420\u0430\u0437\u043D\u043E\u0441\u0442\u044C: ".concat(value1, " - ").concat(value2, " = ").concat(result.toString(system), " (\u0432 ").concat(system, "-\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u0435 \u0441\u0447\u0438\u0441\u043B\u0435\u043D\u0438\u044F)"));
+    console.log("\u0420\u0430\u0437\u043D\u043E\u0441\u0442\u044C: ".concat(value1, " / ").concat(value2, " = ").concat(result.toString(system), " (\u0432 ").concat(system, "-\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u0435 \u0441\u0447\u0438\u0441\u043B\u0435\u043D\u0438\u044F)"));
     // Переводим в строку для вывода в нужной системе счисления
     return result.toString(system);
 };
