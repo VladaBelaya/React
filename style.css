@@ -1,0 +1,12 @@
+#app {
+    max-width: 380px;
+    margin: 30px auto;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-img {
+    width: 100%;
+}
